@@ -18,3 +18,17 @@
       width: 100px;
       height: 100px;
   }
+  .row.no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .col-lg-10 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  .col-lg-10 > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }

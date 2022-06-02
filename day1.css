@@ -5,13 +5,13 @@
     }
 }
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: red;
     color: white;
     text-align: center;
+    margin-top: 10px;
   }
   img
   {
@@ -44,4 +44,60 @@
 
 h1 {
 color: green
+}
+.card1
+{
+  position: relative;
+}
+
+.card2,.card3,.card4
+{
+  position: relative;
+}
+
+.badge {
+  width: 38px;
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color:purple;
+}
+.btn-dark{
+  height: 100px;
+  width: 100px;
+  background: #fff;
+  border-radius: 20px;
+  animation: mymove 5s infinite;
+}
+.btn .btn btn-dark 
+{
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    transition: box-shadow 0.3s ease-in-out;
+ 
+
+
+}
+.btn .btn btn-dark:hover {
+  
+  
+  transform: translateY(-10px);
+}
+
+@keyframes mymove {
+  50% {box-shadow: 10px 20px 30px purple;}
 }
